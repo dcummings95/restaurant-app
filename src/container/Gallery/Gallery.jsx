@@ -13,7 +13,7 @@ const Gallery = () => {
     if(direction ==='left') {
       current.scrollLeft -= 300;
     } else if(direction ==='right') {
-      current.scrollRight += 300;
+      current.scrollLeft += 300;
     }
   }
 
