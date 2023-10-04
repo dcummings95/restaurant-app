@@ -8,6 +8,7 @@ const AwardCard = ({award: {imgUrl, title, subtitle}}) => (
     <img src={imgUrl} alt='award' />
     <div className="app__laurels_awards-card_content">
       <p className='p__cormorant' style={{color: '#DCCA87'}}>{title}</p>
+      <p className='p__opensans'>{subtitle}</p>
     </div>
   </div>
 )
@@ -23,7 +24,7 @@ const Laurels = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img />
+      <img src={images.laurels} alt='laurels'/>
     </div>
   </div>
 );
